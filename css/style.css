@@ -1,0 +1,135 @@
+
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(RC.jpg);
+  background-position:;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #DEDDDE;
+}
+
+.logo {
+  letter-spacing: 2px;
+  float: left;
+  color: #DEDDDE;
+  font-size: 16px;
+  line-height: 80px;
+  padding: 0 3em;
+}
+
+.menu {
+  float: right;
+  line-height: 60px;
+  margin: 0 3em;
+
+}
+
+.menu ul{
+  list-style: none;
+
+}
+
+.menu ul li{
+  display: inline-block;
+  color: #DEDDDE;
+  transition: all 1.5s ease-in-out;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: grey;
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 0 20px;
+  font-family: sans-serif;
+}
+
+.menu ul li:hover{
+  transition: all bold 0.5s ease-in;
+  color: white;
+}
+
+.header{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header h1{
+  color: #DEDDDE;
+  font-size: 70px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-family: serif;
+}
+
+.header p{
+  color: #DEDDDE;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.header button{
+  color: grey;
+  background: none;
+  padding: 12px 8px;
+  border: none;
+  transition: all 1.5s ease-in-out;
+  margin-top: 30px;
+}
+
+.header button:hover{
+  background-color: transparent;
+  transition: all 0.5s ease-in;
+  color: #DEDDDE;
+}
+
+.container ul{
+  position: absolute;
+  top: 80%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.container ul li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+.container ul li .fab{
+  font-size: 20px;
+  line-height: 60px;
+  transition: 0.6s;
+  color: #DEDDDE;
+}
+
+.container ul li .fas{
+  font-size: 20px;
+  line-height: 60px;
+  transition: 0.6s;
+  color: #DEDDDE;
+}
+
